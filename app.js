@@ -10,10 +10,10 @@ const snacklist  = require('./controller/snacklist');
 //connect mongoose to database
 mongoose.connect(config.database);
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 //Intialize app variable
-const app         = express();
+const app = express();
 
 //Middleware for cors
 app.use(cors());

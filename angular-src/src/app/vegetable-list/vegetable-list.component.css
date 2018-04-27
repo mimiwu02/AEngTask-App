@@ -1,13 +1,16 @@
 .main {
-  margin: 0px auto;
+  margin-top: 50px;
+  margin-left: 500px;
+  margin-bottom: 50px;
   width: 1024px;
+  justify-content: center;
 }
 
 #table {
 margin: 0px auto;
 margin-top: 5%;
 text-align: center;
-float: left;
+float:left;
 }
 
 
