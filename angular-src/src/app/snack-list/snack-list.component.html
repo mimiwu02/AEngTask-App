@@ -1,0 +1,31 @@
+<div class= "main">
+  <table id="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">snack</th>
+        <th scope="col">portion(oz)</th>
+        <th scope="col">price</th>
+        <th scope="col">calories</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let list of lists">
+        <td>{{list.snack}}</td>
+        <td>{{list.snackPortion}}</td>
+        <td>{{list.snackPrice}}</td>
+        <td>{{list.snackCalories}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class= "snackchart" style="width: 60%;">
+  <canvas
+      baseChart
+      [chartType]="'doughnut'"
+      [datasets]="chartData"
+      [labels]="chartLabels"
+      [options]="chartOptions"
+      [legend]="false">
+  </canvas>
+  </div>
+</div>

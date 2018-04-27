@@ -1,0 +1,22 @@
+.jumbotron{
+  margin-left: 500px;
+  margin-bottom: 0px;
+  padding: 0;
+  align-content: center;
+  width: 80%;
+  background-color: white;
+}
+
+#navbar {
+  align-content: center;
+  margin-left: 500px;
+  margin-top: 0px;
+  padding: 0;
+  height: 50px;
+  width: 1024px;
+  background-color: #28A190;
+}
+
+.navbar-nav {
+  align-content: center;
+}
