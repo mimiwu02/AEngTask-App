@@ -1,5 +1,5 @@
 .main {
-  margin-top: 50px;
+  margin-top: 10px;
   margin-left: 500px;
   margin-bottom: 50px;
   width: 1024px;
@@ -8,14 +8,14 @@
 
 #table {
 margin: 0px auto;
-margin-top: 5%;
+margin-bottom: 50px;
 text-align: center;
 float: left;
 }
 
 .fruitchart {
 margin: 0px auto;
-margin-top: 5%;
-margin-left: 5%;
+margin-top: 10px;
+margin-left: 10px;
 float: left;
 }

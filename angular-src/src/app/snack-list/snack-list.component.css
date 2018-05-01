@@ -1,5 +1,4 @@
 .main {
-  margin-top: 50px;
   margin-left: 500px;
   margin-bottom: 50px;
   width: 1024px;
@@ -8,16 +7,13 @@
 
 #table {
 margin: 0px auto;
-margin-top: 5%;
-margin-bottom: 5%;
 text-align: center;
-align-items: left;
+float:left;
+margin-bottom: 50px;
 }
 
 
 .snackchart {
 margin: 0px auto;
-margin-top: 5%;
-align-items: right;
-padding: 0;
+float: left;
 }

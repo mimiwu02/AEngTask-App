@@ -404,7 +404,7 @@ var AppModule = /** @class */ (function () {
 /***/ "./src/app/fruit-list/fruit-list.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".main {\n  margin-top: 50px;\n  margin-left: 500px;\n  margin-bottom: 50px;\n  width: 1024px;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n#table {\nmargin: 0px auto;\nmargin-top: 5%;\ntext-align: center;\nfloat: left;\n}\n\n.fruitchart {\nmargin: 0px auto;\nmargin-top: 5%;\nmargin-left: 5%;\nfloat: left;\n}\n"
+module.exports = ".main {\n  margin-top: 10px;\n  margin-left: 500px;\n  margin-bottom: 50px;\n  width: 1024px;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n#table {\nmargin: 0px auto;\nmargin-bottom: 50px;\ntext-align: center;\nfloat: left;\n}\n\n.fruitchart {\nmargin: 0px auto;\nmargin-top: 10px;\nmargin-left: 10px;\nfloat: left;\n}\n"
 
 /***/ }),
 
@@ -569,7 +569,7 @@ var ListService = /** @class */ (function () {
 /***/ "./src/app/snack-list/snack-list.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".main {\n  margin-top: 50px;\n  margin-left: 500px;\n  margin-bottom: 50px;\n  width: 1024px;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n#table {\nmargin: 0px auto;\nmargin-top: 5%;\nmargin-bottom: 5%;\ntext-align: center;\n-webkit-box-align: left;\n    -ms-flex-align: left;\n        align-items: left;\n}\n\n.snackchart {\nmargin: 0px auto;\nmargin-top: 5%;\n-webkit-box-align: right;\n    -ms-flex-align: right;\n        align-items: right;\npadding: 0;\n}\n"
+module.exports = ".main {\n  margin-left: 500px;\n  margin-bottom: 50px;\n  width: 1024px;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n#table {\nmargin: 0px auto;\ntext-align: center;\nfloat:left;\nmargin-bottom: 50px;\n}\n\n.snackchart {\nmargin: 0px auto;\nfloat: left;\n}\n"
 
 /***/ }),
 
@@ -639,7 +639,7 @@ var SnackListComponent = /** @class */ (function () {
 /***/ "./src/app/vegetable-list/vegetable-list.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".main {\n  margin-top: 50px;\n  margin-left: 500px;\n  margin-bottom: 50px;\n  width: 1024px;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n#table {\nmargin: 0px auto;\nmargin-top: 5%;\ntext-align: center;\nfloat:left;\n}\n\n.vegchart {\nmargin: 0px auto;\nmargin-top: 5%;\nfloat: left;\n}\n"
+module.exports = ".main {\n  margin-left: 500px;\n  margin-bottom: 50px;\n  width: 1024px;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n#table {\nmargin: 0px auto;\ntext-align: center;\nfloat:left;\n}\n\n.vegchart {\nmargin: 0px auto;\nfloat: left;\n}\n"
 
 /***/ }),
 

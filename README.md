@@ -22,5 +22,9 @@ Backend
 3. Table displaying all information pulled from database
 4. Visualizations to complement table (currently data hardcoded)
 
+## Screenshots
+![alt tag](http://i751.photobucket.com/albums/xx156/Moirae54/Homepage.png)
 
-##Links:
+![alt tag](http://i751.photobucket.com/albums/xx156/Moirae54/fruits-page.png)
+
+## Links
