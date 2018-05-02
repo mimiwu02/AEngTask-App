@@ -15,10 +15,10 @@ const port = process.env.PORT || 3000;
 //Intialize app variable
 const app = express();
 
-//Middleware for cors
+//Middleware for cors - allows for the server to communicate with client
 app.use(cors());
 
-//Middleware for bodyparsing
+//Middleware for bodyparsing for being able to read information from a POST request
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 

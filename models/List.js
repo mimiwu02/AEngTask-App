@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-//Define BucketlistSchema with title, description and category
 const FoodSchema = mongoose.Schema({
   snack: String,
   vegetable: String,
